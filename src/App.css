@@ -1,0 +1,34 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #9156ea, #ff758c);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #232222;
+}
+
+[data-scroll-container] {
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+[data-scroll-container]::-webkit-scrollbar {
+    width: 10px;
+}
+
+[data-scroll-container]::-webkit-scrollbar-thumb {
+    background: linear-gradient(45deg, #4caf50, #8bc34a);
+}
+
+::-webkit-scrollbar-horizontal {
+    height: 10px;
+}
